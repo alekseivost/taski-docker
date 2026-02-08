@@ -11,9 +11,6 @@ DEBUG = True
 ALLOWED_HOSTS = ['localhost', '51.250.104.161', 'myhostzxc.ddns.net']
 
 
-
-# Application definition
-
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
     'django.contrib.admin',
@@ -127,4 +124,4 @@ STATIC_URL = '/static/'
 # в контейнере это будет /app/collected_static
 STATIC_ROOT = BASE_DIR / 'collected_static'
 # Теперь при вызове команды python manage.py collectstatic
-# Django будет копировать все статические файлы в директорию collected_static 
+# Django будет копировать все статические файлы в директорию collected_static
